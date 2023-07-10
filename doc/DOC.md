@@ -19,3 +19,5 @@ jobs:
           fetch-depth: 0
       - name: Test repolinter
         uses: philips-labs/github-action-repolinter@master
+
+from this point any new commit with run a repolinter job
