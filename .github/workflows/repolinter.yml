@@ -12,3 +12,5 @@ jobs:
           fetch-depth: 0
       - name: Test repolinter
         uses: philips-labs/github-action-repolinter@master
+        env:
+          CUSTOM_REPOLINT_FILE: repolinter_rules.json
